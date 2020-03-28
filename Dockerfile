@@ -2,6 +2,7 @@ FROM ruby:2.7.0
 
 ENV LANG C.UTF-8
 ENV TZ=Asia/Tokyo
+EXPOSE 3000
 
 WORKDIR /app
 
